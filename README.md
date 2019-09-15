@@ -5,6 +5,7 @@ les tables
 ----------semaine
 ----------tests
 ----------questions
+----------resultat
 
 
 
@@ -50,6 +51,13 @@ table->questions->
 ***user_id
 ***test_id
 ***satut
+
+
+
+table->resultat->
+***user_id
+***question_id
+***resultat_reponse
 
 
 
