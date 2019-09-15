@@ -5,9 +5,7 @@ les tables
 ----------semaine
 ----------tests
 ----------questions
-----------commentaire
-----------reponse
-----------resultat
+
 
 
 
@@ -15,8 +13,7 @@ les tables
 
 table-> module->
 ***titre
-***description
-***image
+***langage
 ***statut
 ***date_ajout
 ***date_update
@@ -24,7 +21,10 @@ table-> module->
 
 
 table-> semaine->
-***nom_semaine
+***numero_semaine
+***titre
+***debut
+***fin
 ***module_id
 ***date_ajout
 ***date_update
@@ -35,7 +35,7 @@ table-> semaine->
 table->tests->
 ***titre
 ***semaine-id
-***question_id
+***nombre_question
 ***date_ajout
 ***date_update
 ***statut
@@ -44,31 +44,10 @@ table->tests->
 
 table->questions->
 ***titre
-***user_id
-***nombre_quest
+***description
 ***date_ajout
 ***date_update
 ***satut
 
 
 
-table->commentaire->
-***user_id
-***test_id
-***statut
-***date_ajout
-***message
-
-
-
-table->resultat->
-***reponse_id
-***user_id
-***test_id
-
-
-
-table->reponse->
-***test_id
-***user-id
-***question_id
