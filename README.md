@@ -47,6 +47,8 @@ table->questions->
 ***description
 ***date_ajout
 ***date_update
+***user_id
+***test_id
 ***satut
 
 
