@@ -6,7 +6,8 @@ les tables
 ----------tests
 ----------questions
 ----------commentaire
-----------solutions
+----------reponse
+----------resultat
 
 
 
@@ -48,11 +49,6 @@ table->questions->
 -date_ajout
 -date_update
 -satut
-
-
-
-table->reponse->
--test_id
 
 
 
