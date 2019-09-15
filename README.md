@@ -14,12 +14,12 @@ les tables
 
 
 table-> module->
--titre
--description
--image
--statut
--date_ajout
--date_update
+--titre
+--description
+--image
+--statut
+--date_ajout
+--date_update
 
 
 
