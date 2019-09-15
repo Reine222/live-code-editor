@@ -56,8 +56,9 @@ table->questions->
 
 table->resultat->
 ***user_id
-***question_id
+***nbr_question_correcte
 ***resultat_reponse
+***test_id
 
 
 
